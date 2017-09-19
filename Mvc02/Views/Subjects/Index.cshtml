@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Subject>
+@{
+    int totalHours = 0;
+    string newCode = TempData["NewCode"]?.ToString();
+}
+
+<h2>Subject List</h2>
+<a asp-action="Create" class="btn btn-success btn-xs">Add New</a>
+<div>We have @Model.Count() subjects.</div>
+@TempData["NewCode"]
+<table class="table table-hover table-condensed table-responsive">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Days</th>
+            <th>Hours</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            string bg = null;
+            //bg = item.Code == TempData["NewCode"].ToString() ? "bg-success" : "None";
+            if (item.Code == newCode) {
+                bg = "bg-success";
+            }
+            <tr class="@bg">
+                <td>@item.Code</td>
+                <td>@item.Title</td>
+                <td>@item.Days</td>
+                <td>@item.Hours</td>
+                <td></td>
+            </tr>
+            totalHours += item.Hours;
+        }
+    </tbody>
+</table>
+<div>Total @totalHours hours!</div>
+

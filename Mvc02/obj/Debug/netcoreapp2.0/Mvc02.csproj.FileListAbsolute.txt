@@ -1,0 +1,11 @@
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\bin\Debug\netcoreapp2.0\Mvc02.deps.json
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\bin\Debug\netcoreapp2.0\Mvc02.runtimeconfig.json
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\bin\Debug\netcoreapp2.0\Mvc02.runtimeconfig.dev.json
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\bin\Debug\netcoreapp2.0\Mvc02.dll
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.csprojResolveAssemblyReference.cache
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.csproj.CoreCompileInputs.cache
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.AssemblyInfoInputs.cache
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.AssemblyInfo.cs
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\bin\Debug\netcoreapp2.0\Mvc02.pdb
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.dll
+D:\GF\TheMostImportantCSharpPre7\Mvc02\Mvc02\obj\Debug\netcoreapp2.0\Mvc02.pdb
